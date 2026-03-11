@@ -1,3 +1,29 @@
+/*PSEUDOCODE
+DECLARE x : ARRAY [3][3] OF INTEGER
+DECLARE y : ARRAY [3][3] OF INTEGER
+DECLARE z : ARRAY [3][3] OF INTEGER
+
+FOR r := 0 TO 2
+FOR c := 0 TO 2
+READ x[r][c]
+READ y[r][c]
+END FOR
+END FOR
+
+FOR r := 0 TO 2
+FOR c := 0 TO 2
+z[r][c] := x[r][c] - y[r][c]
+END FOR
+END FOR
+
+FOR r := 0 TO 2
+FOR c := 0 TO 2
+PRINT z[r][c]
+END FOR
+END FOR
+ */
+
+
 import java.util.Scanner;
 public class SubtractionMatrix {
         public static void main(String[] args) {
@@ -18,29 +44,10 @@ public class SubtractionMatrix {
                 for(int c = 0; c < 3; c++) {
                     System.out.print(z[r][c] + " ");}
                 System.out.println();}
-        }}
+        }
+}
 
-//PSEUDOCODE
-//DECLARE x : ARRAY [3][3] OF INTEGER
-//DECLARE y : ARRAY [3][3] OF INTEGER
-//DECLARE z : ARRAY [3][3] OF INTEGER
-//
-//FOR r := 0 TO 2
-//FOR c := 0 TO 2
-//READ x[r][c]
-//READ y[r][c]
-//END FOR
-//END FOR
-//
-//FOR r := 0 TO 2
-//FOR c := 0 TO 2
-//z[r][c] := x[r][c] - y[r][c]
-//END FOR
-//END FOR
-//
-//FOR r := 0 TO 2
-//FOR c := 0 TO 2
-//PRINT z[r][c]
-//END FOR
-//END FOR
+
+
+
 
