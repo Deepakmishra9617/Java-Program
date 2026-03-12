@@ -11,7 +11,6 @@ public class TriangleArea {
 //    READ h
 //    CALL TRIANGLE(b, h)
 
-
  public static void triangle(double b, double h) {
             double area = (b * h) / 2;
             System.out.println(area);}
@@ -19,5 +18,5 @@ public class TriangleArea {
             Scanner sc = new Scanner(System.in);
             double b = sc.nextDouble();
             double h = sc.nextDouble();
-triangle(b, h);
+                       triangle(b, h);
 }}
